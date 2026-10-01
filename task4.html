@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 4 - Responsive Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/task4.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+  <div class="container py-2">
+    <a class="navbar-brand fw-bold text-primary" href="#">Yerbol.dev</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNav" aria-controls="portfolioNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="portfolioNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="container portfolio-hero">
+  <span class="badge-soft">Part 3 · Task 4</span>
+  <h1 class="mt-3">Software Engineering Portfolio</h1>
+  <p class="lead text-secondary col-lg-8">A responsive portfolio built with Bootstrap Grid and custom CSS media queries.</p>
+  <p class="optional-desktop-note text-secondary">Desktop note: this sentence is hidden on mobile using a custom media query.</p>
+</header>
+
+<main class="container pb-4">
+  <div class="row g-4">
+    <section class="col-12 col-lg-8" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <article class="card-like project-card">
+            <div class="project-thumb">01</div>
+            <div class="content"><h3 class="h5">Responsive Website</h3><p>Mobile-first interface with responsive typography and layout.</p><span class="badge text-bg-primary">HTML/CSS</span></div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6">
+          <article class="card-like project-card">
+            <div class="project-thumb">02</div>
+            <div class="content"><h3 class="h5">Bootstrap Dashboard</h3><p>Dashboard layout using Bootstrap's responsive grid system.</p><span class="badge text-bg-primary">Bootstrap</span></div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6">
+          <article class="card-like project-card">
+            <div class="project-thumb">03</div>
+            <div class="content"><h3 class="h5">Student App UI</h3><p>Clean card-based interface that adapts to different devices.</p><span class="badge text-bg-primary">Responsive UI</span></div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6">
+          <article class="card-like project-card">
+            <div class="project-thumb">04</div>
+            <div class="content"><h3 class="h5">Portfolio Page</h3><p>Combined Bootstrap and custom media-query project.</p><span class="badge text-bg-primary">Web Design</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <aside class="col-12 col-lg-4" id="about">
+      <div class="card-like sidebar">
+        <h2 class="h4">Personal Info</h2>
+        <div class="info-row"><strong>Name</strong>Yerbol Alikhan</div>
+        <div class="info-row"><strong>Group</strong>SE-2517</div>
+        <div class="info-row"><strong>Program</strong>Software Engineering</div>
+        <div class="info-row" id="contact"><strong>Email</strong>student@example.com</div>
+        <hr>
+        <h3 class="h6">Skills</h3>
+        <div class="skills">
+          <span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">Bootstrap</span><span class="skill">Responsive Design</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="container">© 2026 Yerbol Alikhan · Responsive Web Design Assignment</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

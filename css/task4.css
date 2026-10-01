@@ -1,0 +1,43 @@
+
+body { background: #f6f8fc; }
+.portfolio-hero {
+  padding: 72px 0 42px;
+}
+.portfolio-hero h1 {
+  font-size: 44px;
+  letter-spacing: -1px;
+}
+.project-card {
+  height: 100%;
+  overflow: hidden;
+}
+.project-thumb {
+  min-height: 145px;
+  background: linear-gradient(135deg, #dbeafe, #eef2ff);
+  display: grid;
+  place-items: center;
+  font-size: 42px;
+  font-weight: 800;
+  color: #2563eb;
+}
+.project-card .content { padding: 22px; }
+.project-card p { color: var(--muted); }
+.sidebar { padding: 24px; }
+.info-row { margin-bottom: 14px; }
+.info-row strong { display: block; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.skills { display: flex; flex-wrap: wrap; gap: 8px; }
+.skill {
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+@media (max-width: 767.98px) {
+  .portfolio-hero { padding: 44px 0 24px; }
+  .portfolio-hero h1 { font-size: 32px; }
+  .optional-desktop-note { display: none; }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .portfolio-hero h1 { font-size: 38px; }
+}

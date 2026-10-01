@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment 3 - Responsive Web Design</title>
+  <link rel="stylesheet" href="css/common.css">
+  <style>
+    .task-list { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; padding-bottom:50px; }
+    .task-link { padding:24px; text-decoration:none; color:inherit; transition:.2s ease; }
+    .task-link:hover { transform:translateY(-3px); border-color:#2563eb; }
+    .task-link p { color:#6b7280; margin-bottom:0; }
+  </style>
+</head>
+<body>
+<main class="page-shell">
+  <section class="hero">
+    <span class="badge-soft">Assignment #3</span>
+    <h1>Responsive Web Design</h1>
+    <p>Yerbol Alikhan · SE-2517 · Media Queries + Bootstrap Grid</p>
+  </section>
+  <section class="task-list">
+    <a class="card-like task-link" href="task0.html"><h2>Task 0</h2><p>Responsive Typography</p></a>
+    <a class="card-like task-link" href="task1.html"><h2>Task 1</h2><p>CSS Media Query Layout</p></a>
+    <a class="card-like task-link" href="task2.html"><h2>Task 2</h2><p>Bootstrap Responsive Columns</p></a>
+    <a class="card-like task-link" href="task3.html"><h2>Task 3</h2><p>Bootstrap Navbar</p></a>
+    <a class="card-like task-link" href="task4.html"><h2>Task 4</h2><p>Responsive Portfolio</p></a>
+  </section>
+</main>
+</body>
+</html>
